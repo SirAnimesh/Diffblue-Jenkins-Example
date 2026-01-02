@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Diffblue-Jenkins-Example
+  description: Some description
+  annotations:
+    github.com/project-slug: SirAnimesh/Diffblue-Jenkins-Example
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:monks
